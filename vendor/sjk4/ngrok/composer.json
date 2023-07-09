@@ -1,0 +1,18 @@
+{
+  "name": "sjk4/ngrok",
+  "type": "library",
+  "description": "ngrok creates a secure introspectable tunnels to localhost.",
+  "keywords": ["ngrok", "tunnel", "localhost"],
+  "homepage": "https://ngrok.com/",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Alan Shreve",
+      "email": "alan@inconshreveable.com",
+      "homepage": "https://inconshreveable.com/"
+    }
+  ],
+  "bin": ["bin/ngrok"]
+}

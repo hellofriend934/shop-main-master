@@ -1,0 +1,15 @@
+<?php
+declare(strict_types=1);
+
+namespace Domain\Auth\Providers;
+
+use Domain\Auth\Actions\RegisterNewUserAction;
+use Domain\Auth\Contracts\RegisterNewUserContract;
+use Illuminate\Support\ServiceProvider;
+
+class ActionServiceProvider extends ServiceProvider
+{
+public array $bindings = [
+  RegisterNewUserContract::class=>RegisterNewUserAction::class
+];
+}
